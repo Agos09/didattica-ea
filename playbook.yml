@@ -1,6 +1,6 @@
 site:
   title: Appunti di Economia Aziendale
-  url: https://didattica-ea.agostino-da.workers.dev
+  url: https://didattica.wealth.finance
   start_page: didattica::index.adoc
 content:
   sources:

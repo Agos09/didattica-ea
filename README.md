@@ -1,6 +1,6 @@
 # Appunti di Economia Aziendale
 
-Sito pubblico delle lezioni (Antora → Cloudflare Workers).
+Sito pubblico: **https://didattica.wealth.finance** (Workers `didattica-ea`; fallback `*.workers.dev`).
 
 **Questa repo non è la SSoT.** Il fascicolo completo (programmazioni, verbali, journal) sta su Forgejo: `agostino/scuola` (`~/Code/scuola`). Qui arriva solo `didattica/` più la config di build/deploy.
 
