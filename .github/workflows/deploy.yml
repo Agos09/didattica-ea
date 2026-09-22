@@ -26,7 +26,15 @@ jobs:
       - run: npm run build
 
       - name: Deploy to Cloudflare Workers
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          TOKEN="$(printf '%s' "$CLOUDFLARE_API_TOKEN" | tr -d '\r\n' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//;s/^"//;s/"$//;s/^Bearer[[:space:]]*//')"
+          if [ ${#TOKEN} -lt 20 ]; then
+            echo "CLOUDFLARE_API_TOKEN looks too short after cleanup (${#TOKEN} chars)."
+            echo "Set the secret to the raw API token only (Edit Cloudflare Workers), no quotes, no Bearer."
+            exit 1
+          fi
+          export CLOUDFLARE_API_TOKEN="$TOKEN"
+          npx wrangler deploy
