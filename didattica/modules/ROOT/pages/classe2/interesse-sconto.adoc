@@ -1,0 +1,24 @@
+= Calcolo dell'Interesse e dello Sconto Commerciale
+:navtitle: Interesse e Sconto
+:keywords: interesse, sconto commerciale, economia aziendale, classe seconda
+:page-role: ripasso
+:pdf-theme: itet-ripasso
+
+In questa sezione esploreremo le formule per la determinazione dell'interesse e dello sconto, concetti fondamentali nella gestione finanziaria dell'impresa.
+
+== 1. Il Calcolo dell'Interesse
+L'interesse ($I$) è il compenso spettante a chi cede l'uso di un capitale ($C$) ad altri per un certo periodo di tempo ($t$) ad un determinato tasso percentuale ($r$).
+
+=== La Formula Generale (tempo in anni)
+[.formula-box]
+*I = (C * r * t) / 100*
+
+== 2. Lo Sconto Commerciale
+Lo sconto commerciale ($Sc$) è il compenso che spetta a chi paga un debito prima della sua scadenza naturale.
+
+=== La Formula Generale (tempo in giorni - anno civile)
+[.formula-box]
+*Sc = (C * r * gg) / 36500*
+
+---
+_Nota: Questa pagina è in fase di completamento con esempi dettagliati ed esercitazioni._

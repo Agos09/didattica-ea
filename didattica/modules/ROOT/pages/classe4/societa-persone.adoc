@@ -1,0 +1,129 @@
+= Le Società di Persone: Caratteri, Costituzione e Gestione Utile/Perdita
+:navtitle: Società di Persone
+:keywords: societa di persone, snc, costituzione, riparto utili, perdita, partita doppia, classe quarta
+:page-role: lezione
+:pdf-theme: itet-lezione
+
+Nelle **società di persone** la figura del socio ha una centralità assoluta (intuitus personae). Analizzeremo i caratteri generali di queste società, le scritture contabili in Partita Doppia per la loro **costituzione** e le modalità di gestione dell'**utile** e della **perdita**.
+
+---
+
+== 1. Caratteristiche Giuridiche ed Economiche
+Le società di persone si dividono principalmente in:
+* **S.n.c. (Società in nome collettivo):** tutti i soci rispondono solidalmente, illimitatamente e sussidiariamente per le obbligazioni sociali.
+* **S.a.s. (Società in accomandita semplice):** caratterizzata da due categorie di soci:
+  - *Soci Accomandatari:* rispondono solidalmente e illimitatamente. Ad essi spetta l'amministrazione.
+  - *Soci Accomandanti:* rispondono limitatamente alla quota conferita e non possono amministrare.
+
+[IMPORTANT]
+====
+* **Responsabilità Illimitata:** il socio risponde con tutto il suo patrimonio personale presente e futuro.
+* **Responsabilità Solidale:** i creditori sociali possono rivolgersi a un singolo socio per pretendere l'intero pagamento del debito sociale.
+* **Responsabilità Sussidiaria (Beneficio di escussione):** i creditori devono prima escutere (aggredire) il patrimonio della società; solo se questo è insufficiente possono aggredire il patrimonio personale del socio.
+====
+
+---
+
+== 2. La Costituzione della Società
+La costituzione avviene tramite atto pubblico o scrittura privata autenticata (Atto Costitutivo). Contabilmente si registrano due momenti fondamentali:
+
+=== Fase A: La Sottoscrizione delle quote
+Rappresenta l'impegno formale dei soci a conferire il capitale.
+
+[cols="4,1,1", options="header"]
+|===
+| Conto | Dare | Avere
+| *Soci c/sottoscrizione* (VF+) | Valore totale | 
+| *Capitale Sociale* (VE+) | | Valore totale
+|===
+
+=== Fase B: L'apporto dei Conferimenti
+I soci eseguono l'apporto delle somme o dei beni promessi.
+
+* **Apporto in Denaro (minimo 25% o 100%):**
+[cols="4,1,1", options="header"]
+|===
+| Conto | Dare | Avere
+| *Banca c/c* (VF+) | Somma versata | 
+| *Soci c/sottoscrizione* (VF-) | | Somma versata
+|===
+
+* **Apporto di Beni in Natura (Fabbricati, Macchinari ecc.):**
+[cols="4,1,1", options="header"]
+|===
+| Conto | Dare | Avere
+| *Fabbricati* / *Macchinari* / *Merci* (VE-) | Valore stimato | 
+| *Soci c/sottoscrizione* (VF-) | | Valore stimato
+|===
+
+---
+
+== 3. Il Riparto degli Utili
+A fine anno, l'utile conseguito viene ripartito tra i soci in base alle quote pattuite nell'atto costitutivo (o in proporzione ai conferimenti). Spesso l'atto prevede:
+1. Una quota da accantonare a **Riserva Volontaria**.
+2. Il compenso spettante ai soci amministratori.
+3. Il riparto del residuo tra i soci.
+
+=== Scrittura in Partita Doppia per il Riparto Utile
+[cols="4,1,1", options="header"]
+|===
+| Conto | Dare | Avere
+| *Utile d'esercizio* (VE-) | Importo Utile | 
+| *Riserva Volontaria* (VE+) | | Quota Riserva
+| *Socio A c/ritenute* / *Socio A c/competenze* (VF-) | | Quota Socio A
+| *Socio B c/competenze* (VF-) | | Quota Socio B
+|===
+
+---
+
+== 4. La Copertura delle Perdite
+In caso di perdita d'esercizio, la società può deliberare di coprirla attraverso diverse modalità:
+* **Copertura Virtuale:** rinvio al futuro (la perdita viene lasciata in sospeso in attesa di utili futuri: *Perdite in sospeso*).
+* **Copertura Reale:** i soci effettuano nuovi versamenti in denaro per coprire la perdita.
+* **Copertura Nominale:** riduzione del Capitale Sociale o utilizzo delle riserve esistenti.
+
+=== Scrittura in Partita Doppia (Copertura Reale con versamento dei soci)
+[cols="4,1,1", options="header"]
+|===
+| Conto | Dare | Avere
+| *Soci c/reintegro perdite* (VF+) | Importo perdita | 
+| *Perdita d'esercizio* (VE+) | | Importo perdita
+|===
+
+All'atto del versamento:
+[cols="4,1,1", options="header"]
+|===
+| Conto | Dare | Avere
+| *Banca c/c* (VF+) | Somma versata | 
+| *Soci c/reintegro perdite* (VF-) | | Somma versata
+|===
+
+---
+
+== Esercitazione Pratica: Mettiti alla prova!
+
+Risolvi i seguenti esercizi sul tuo quaderno:
+
+1. **Scritture di Costituzione:** In data 15 settembre si costituisce la "Alfa S.n.c." con capitale sociale di € 100.000,00 diviso in quote uguali tra il socio Rossi e il socio Bianchi. Rossi apporta denaro contante per € 50.000,00 versati sul c/c della società. Bianchi apporta un automezzo valutato € 40.000,00 e merci per € 10.000,00. Redigi le scritture in Partita Doppia.
+2. **Riparto Utile:** La "Beta S.n.c." consegue un utile d'esercizio di € 24.000,00. L'atto costitutivo stabilisce che:
+   * Il 10% sia accantonato a Riserva Volontaria.
+   * Il residuo sia ripartito tra i soci Neri (60%) e Verdi (40%).
+   Calcola le quote spettanti e redigi la scrittura di riparto in Partita Doppia.
+
+[TIP]
+====
+**Soluzioni contabili per il controllo:**
+
+1. **Costituzione:**
+   * *Sottoscrizione:* Dare `Rossi c/sottoscrizione` (€ 50.000,00) e `Bianchi c/sottoscrizione` (€ 50.000,00) / Avere `Capitale Sociale` (€ 100.000,00).
+   * *Apporto Rossi:* Dare `Banca c/c` (€ 50.000,00) / Avere `Rossi c/sottoscrizione` (€ 50.000,00).
+   * *Apporto Bianchi:* Dare `Automezzi` (€ 40.000,00) e `Merci c/acquisti` (o `Rimanenze`) (€ 10.000,00) / Avere `Bianchi c/sottoscrizione` (€ 50.000,00).
+
+2. **Riparto Utile:**
+   * Utile = € 24.000,00
+   * Riserva Volontaria = $24.000 \cdot 10\% =$ € 2.400,00
+   * Utile residuo da ripartire = $24.000 - 2.400 =$ € 21.600,00
+   * Quota socio Neri = $21.600 \cdot 60\% =$ € 12.960,00
+   * Quota socio Verdi = $21.600 \cdot 40\% =$ € 8.640,00
+   * *Partita Doppia:* Dare `Utile d'esercizio` (€ 24.000,00) / Avere `Riserva Volontaria` (€ 2.400,00), `Neri c/competenze` (€ 12.960,00), `Verdi c/competenze` (€ 8.640,00).
+====

@@ -1,0 +1,9 @@
+node_modules/
+public/
+.antora/
+.wrangler/
+dist/
+.DS_Store
+*.log
+.env
+.env.local

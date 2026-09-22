@@ -1,0 +1,105 @@
+= Rapporti e Proporzioni: Fondamenti del Calcolo Aziendale
+:navtitle: Rapporti e Proporzioni
+:keywords: rapporti, proporzioni, termine incognito, comporre, scomporre, economia aziendale, classe prima
+:page-role: lezione
+:pdf-theme: itet-lezione
+
+In questa sezione esploreremo i concetti fondamentali di **rapporto** e **proporzione**, che costituiscono la base matematica indispensabile per affrontare i calcoli commerciali e finanziari dell'economia aziendale (come i calcoli percentuali, i riparti e l'IVA).
+
+---
+
+== 1. Il Rapporto
+Un **rapporto** è il quoziente tra due numeri $a$ e $b$ (con $b \neq 0$), espresso nella forma:
+
+[NOTE]
+====
+$$a : b$$ oppure $$\frac\{a\}\{b\}$$
+====
+
+* $a$ prende il nome di **antecedente**.
+* $b$ prende il nome di **conseguente**.
+
+*Esempio aziendale:* Se un'azienda ha 20 dipendenti amministrativi e 80 dipendenti produttivi, il rapporto tra amministrativi e produttivi è:
+$$20 : 80 = 0,25$$ (ovvero, c'è 1 amministrativo ogni 4 addetti alla produzione).
+
+---
+
+== 2. La Proporzione
+Una **proporzione** è l'uguaglianza tra due rapporti. Si scrive nella forma:
+
+[NOTE]
+====
+$$a : b = c : d$$ (si legge: *"a sta a b come c sta a d"*)
+====
+
+I termini della proporzione hanno nomi specifici in base alla loro posizione:
+* $a$ e $d$ sono gli **estremi**.
+* $b$ e $c$ sono i **medi**.
+* $a$ e $c$ sono gli **antecedenti**; $b$ e $d$ sono i **conseguenti**.
+
+=== La Proprietà Fondamentale
+In ogni proporzione, **il prodotto dei medi è sempre uguale al prodotto degli estremi**:
+
+[.formula-box]
+*b * c = a * d*
+
+Questa proprietà è lo strumento principale per verificare la correttezza di una proporzione e per risolverla quando un termine è incognito.
+
+---
+
+== 3. Calcolo del Termine Incognito
+Se uno dei quattro termini di una proporzione è incognito ($x$), possiamo determinarlo facilmente applicando la proprietà fondamentale:
+
+* Per trovare un **medio incognito**: si moltiplicano gli estremi e si divide il risultato per il medio noto.
+  $$a : x = c : d \implies x = \frac\{a \cdot d\}\{c\}$$
+* Per trovare un **estremo incognito**: si moltiplicano i medi e si divide il risultato per l'estremo noto.
+  $$x : b = c : d \implies x = \frac\{b \cdot c\}\{d\}$$
+
+*Esempio pratico:* Risolviamo la proporzione $15 : 5 = 24 : x$
+$$x = \frac\{5 \cdot 24\}\{15\} = \frac\{120\}\{15\} = 8$$
+
+---
+
+== 4. Le Proprietà del Comporre e dello Scomporre
+Nelle applicazioni aziendali (come i calcoli percentuali sopracento e sottocento), sono di fondamentale importanza due proprietà delle proporzioni:
+
+=== Proprietà del Comporre
+In ogni proporzione, la somma del primo e del secondo termine sta al primo (o al secondo) come la somma del terzo e del quarto sta al terzo (o al quarto):
+
+[.formula-box]
+*(a + b) : a = (c + d) : c* +
+*(a + b) : b = (c + d) : d*
+
+=== Proprietà dello Scomporre
+In ogni proporzione (con $a > b$ e $c > d$), la differenza tra il primo e del secondo termine sta al primo (o al secondo) come la differenza tra il terzo e del quarto sta al terzo (o al quarto):
+
+[.formula-box]
+*(a - b) : a = (c - d) : c* +
+*(a - b) : b = (c - d) : d*
+
+---
+
+== Esercitazione Pratica: Mettiti alla prova!
+
+Risolvi sul tuo quaderno i seguenti esercizi applicativi:
+
+1. **Verifica della proporzione:** Stabilisci se l'uguaglianza $18 : 6 = 24 : 8$ forma una proporzione corretta applicando la proprietà fondamentale.
+2. **Ricerca dell'incognita:** Trova il valore di $x$ nelle seguenti proporzioni:
+   * $12 : 4 = x : 10$
+   * $x : 15 = 8 : 24$
+   * $20 : x = x : 5$ (Proporzionale medio)
+3. **Applicazione pratica (Comporre):** Risolvi il sistema di ripartizione sapendo che $x : y = 5 : 3$ e che la loro somma è $x + y = 160$. Determina i valori di $x$ e $y$ usando la proprietà del comporre.
+
+[TIP]
+====
+**Soluzioni per il controllo autonomo:**
+
+1. Prodotto medi = $6 \cdot 24 = 144$; Prodotto estremi = $18 \cdot 8 = 144$. La proporzione è **corretta**.
+2. Risoluzioni:
+   * $x = \frac\{12 \cdot 10\}\{4\} = 30$
+   * $x = \frac\{15 \cdot 8\}\{24\} = 5$
+   * $x^2 = 20 \cdot 5 = 100 \implies x = \sqrt\{100\} = 10$
+3. Applicando il comporre:
+   $$(x+y) : x = (5+3) : 5 \implies 160 : x = 8 : 5 \implies x = \frac\{160 \cdot 5\}\{8\} = 100$$ +
+   $$y = 160 - 100 = 60$$
+====

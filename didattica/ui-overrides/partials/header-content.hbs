@@ -1,0 +1,50 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{{or site.url siteRootPath}}}/index.html">{{site.title}}</a>
+      {{#if env.SITE_SEARCH_PROVIDER}}
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Cerca negli appunti..."{{#if page.home}} autofocus{{/if}}>
+        </div>
+      </div>
+      {{/if}}
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{{or site.url siteRootPath}}}/index.html">🏠 Home</a>
+        <a class="navbar-item" href="{{{or site.url siteRootPath}}}/regole-gioco.html">🎯 Regole del Gioco</a>
+        
+        <!-- Menu a tendina: CLASSI -->
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">📂 Classi</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/classe1/calcoli-percentuali.html">Classe 1ª AFM</a>
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/classe2/interesse-sconto.html">Classe 2ª AFM</a>
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/classe4/costituzione-societa.html">Classe 4ª AFM</a>
+          </div>
+        </div>
+
+        <!-- Menu a tendina: STRUMENTI DI STUDIO -->
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">🛠️ Strumenti di Studio</a>
+          <div class="navbar-dropdown">
+            <div class="navbar-item"><b>Filtra per Tipo:</b></div>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/classe1/calcoli-percentuali.html">📖 Lezioni & Pillole (Classe 1ª)</a>
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/classe4/costituzione-societa.html">📖 Lezioni & Pillole (Classe 4ª)</a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/classe1/verifica-calcoli-percentuali.html">📝 Esercitazioni & Verifiche</a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/classe2/interesse-sconto.html">⚡ Schemi di Ripasso</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

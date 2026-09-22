@@ -1,0 +1,35 @@
+= I Calcoli Percentuali: Sopracento e Sottocento
+:navtitle: Calcoli Percentuali
+:keywords: calcoli percentuali, sopracento, sottocento, economia aziendale, classe prima
+:page-role: lezione
+:pdf-theme: itet-lezione
+
+In questa sezione analizzeremo la teoria e le formule fondamentali relative ai **calcoli percentuali**, fondamentali per la risoluzione dei problemi aziendali quotidiani (come il calcolo dell'IVA, degli sconti commerciali o delle perdite).
+
+---
+
+ifdef::env-antora[]
+include::partial$calcoli-percentuali-teoria.adoc[]
+endif::[]
+ifndef::env-antora[]
+include::../../partials/calcoli-percentuali-teoria.adoc[]
+endif::[]
+
+---
+
+== Esercitazione di Autoverifica (Mettiti alla prova!)
+
+Risolvi sul tuo quaderno i seguenti esercizi per verificare la tua preparazione:
+
+1. **Calcolo Semplice:** Un commerciante vende un lotto di merci del valore di € 3.200,00 concedendo uno sconto promozionale del 6%. Calcola lo sconto e l'importo effettivo pagato dal cliente.
+2. **Calcolo Sopracento:** Un artigiano vende dei prodotti finiti ed emette una fattura con importo totale di € 1.830,00 comprensivo di IVA al 22%. Determina il prezzo imponibile e la quota IVA.
+3. **Calcolo Sottocento:** Un'impresa acquista materie prime ottenendo uno sconto incondizionato del 15% e paga un importo netto di € 4.250,00. Qual era il prezzo originario prima dello sconto?
+
+[TIP]
+====
+**Soluzioni rapide per il controllo:**
+
+1. Sconto = € 192,00; Importo netto = € 3.008,00
+2. Imponibile = € 1.500,00; IVA = € 330,00
+3. Prezzo originario = € 5.000,00
+====

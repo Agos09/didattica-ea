@@ -1,0 +1,6 @@
+name: didattica
+title: Appunti di Economia Aziendale
+version: master
+start_page: index.adoc
+nav:
+  - modules/ROOT/nav.adoc

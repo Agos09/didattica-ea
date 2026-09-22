@@ -1,0 +1,15 @@
+* xref:index.adoc[Benvenuti]
+* xref:regole-gioco.adoc[Le Nostre Regole del Gioco]
+
+* Classe 1a
+** xref:classe1/rapporti-proporzioni.adoc[Rapporti e Proporzioni]
+** xref:classe1/calcoli-percentuali.adoc[Calcoli Percentuali]
+** xref:classe1/verifica-calcoli-percentuali.adoc[Esercitazione Calcoli Percentuali]
+
+* Classe 2a
+** xref:classe2/tempo-interesse-semplice.adoc[Tempo e Interesse Semplice]
+** xref:classe2/interesse-sconto.adoc[Interesse e Sconto]
+
+* Classe 4a
+** xref:classe4/societa-persone.adoc[Società di Persone]
+** xref:classe4/costituzione-societa.adoc[Costituzione Società]

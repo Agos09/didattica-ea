@@ -1,0 +1,13 @@
+{
+  // Public lesson site (Antora → Workers Assets).
+  // Full school tree stays on Forgejo: agostino/scuola. This repo is the publish slice only.
+  "name": "didattica-ea",
+  "account_id": "fd5849baedd7bf3df62037186c87e4b3",
+  "compatibility_date": "2026-09-12",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}

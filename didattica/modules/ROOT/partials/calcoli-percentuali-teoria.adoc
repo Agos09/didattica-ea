@@ -1,0 +1,119 @@
+== Il Calcolo Percentuale Semplice
+
+Il calcolo percentuale si basa su una proporzione matematica fondamentale:
+
+[align="center"]
+*100 : r = S : P*
+
+Dove:
+
+* *100* = la base del calcolo centesimale.
+* *r* = il tasso percentuale (il saggio).
+* *S* = la somma su cui si calcola la percentuale (la base del calcolo).
+* *P* = il valore percentuale (l'importo effettivo in euro).
+
+=== Formule di calcolo:
+
+1. **Trovare il Valore Percentuale ($P$):**
++
+[align="center"]
+*P = (S * r) / 100*
+
+2. **Trovare la Somma Base ($S$):** (formula inversa)
++
+[align="center"]
+*S = (P * 100) / r*
+
+3. **Trovare il Tasso Saggio ($r$):** (formula inversa)
++
+[align="center"]
+*r = (P * 100) / S*
+
+=== Esempio Svolto:
+Un commerciante acquista merci per un valore di € 2.500,00 e ottiene un abbuono del 12%. A quanto ammonta lo sconto ottenuto?
+
+* **Dati:** Sum ($S$) = 2.500,00 €; Tasso ($r$) = 12%.
+* **Risoluzione:**
++
+P = (2.500 * 12) / 100 = 300,00 €
+* **Risposta:** Lo sconto ottenuto è pari a *€ 300,00*.
+
+---
+
+== Il Calcolo Sopracento (Sopra-cento)
+
+Si utilizza quando si conosce un valore che ha già subito un **incremento** (ad esempio, il prezzo di vendita IVA inclusa, il peso lordo di una merce, il capitale finale comprensivo di interessi) e si vuole determinare il valore iniziale (senza incremento) o l'ammontare dell'incremento stesso.
+
+La proporzione fondamentale è:
+
+[align="center"]
+*100 : (100 + r) = S : (S + P)*
+
+Dove *(S + P)* è la somma incrementata complessiva (es. Prezzo Lordo o Imponibile + IVA).
+
+=== Formule di calcolo:
+
+1. **Determinare la Somma Base ($S$):**
++
+[align="center"]
+*S = ((S + P) * 100) / (100 + r)*
+
+2. **Determinare l'Incremento ($P$):**
++
+[align="center"]
+*P = ((S + P) * r) / (100 + r)*
+
+=== Esempio Svolto:
+Un'impresa riceve una fattura per l'acquisto di un macchinario il cui costo totale, comprensivo di IVA al 22%, è pari a € 6.100,00. Calcola il prezzo imponibile (il valore iniziale senza IVA) e l'importo dell'IVA.
+
+* **Dati:** Somma incrementata ($S + P$) = 6.100,00 €; Aliquota ($r$) = 22%.
+* **Risoluzione:**
+  * **Prezzo Imponibile ($S$):**
++
+S = (6.100 * 100) / (100 + 22) = 610.000 / 122 = 5.000,00 €
+  * **Importo IVA ($P$):**
++
+P = (6.100 * 22) / (122) = 1.100,00 €
++
+*(Verifica: € 5.000,00 + € 1.100,00 = € 6.100,00)*
+* **Risposta:** Il valore imponibile del macchinario è di € 5.000,00 e l'IVA ammonta a € 1.100,00.
+
+---
+
+== Il Calcolo Sottocento (Sotto-cento)
+
+Si utilizza quando si conosce un valore che ha subito un **decremento** (ad esempio, il prezzo di vendita scontato, il peso netto dopo un calo di trasporto) e si vuole determinare il valore iniziale (lordo) o l'ammontare del decremento (sconto/calo).
+
+La proporzione fondamentale è:
+
+[align="center"]
+*100 : (100 - r) = S : (S - P)*
+
+Dove *(S - P)* è la somma ridotta complessiva (es. Prezzo Scontato o Peso Netto).
+
+=== Formule di calcolo:
+
+1. **Determinare la Somma Base ($S$):**
++
+[align="center"]
+*S = ((S - P) * 100) / (100 - r)*
+
+2. **Determinare lo Sconto/Decremento ($P$):**
++
+[align="center"]
+*P = ((S - P) * r) / (100 - r)*
+
+=== Esempio Svolto:
+Un negozio vende una giacca in saldo con uno sconto del 30% pagandola € 140,00. Qual era il prezzo di listino originario prima dello sconto?
+
+* **Dati:** Somma ridotta ($S - P$) = 140,00 €; Tasso di sconto ($r$) = 30%.
+* **Risoluzione:**
+  * **Prezzo di Listino ($S$):**
++
+S = (140 * 100) / (100 - 30) = 14.000 / 70 = 200,00 €
+  * **Ammontare dello Sconto ($P$):**
++
+P = (140 * 30) / (100 - 30) = 4.200 / 70 = 60,00 €
++
+*(Verifica: € 200,00 - € 60,00 = € 140,00)*
+* **Risposta:** Il prezzo originario di listino era di € 200,00 e lo sconto applicato è di € 60,00.

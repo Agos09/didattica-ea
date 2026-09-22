@@ -1,0 +1,16 @@
+site:
+  title: Appunti di Economia Aziendale
+  url: https://didattica-ea.agostino-da.workers.dev
+  start_page: didattica::index.adoc
+content:
+  sources:
+    - url: ./
+      branches: HEAD
+      start_path: didattica
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./didattica/ui-overrides
+output:
+  dir: ./public

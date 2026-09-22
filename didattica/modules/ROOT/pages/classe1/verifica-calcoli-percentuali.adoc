@@ -1,0 +1,40 @@
+= Esercitazione Scritta: Calcoli Percentuali
+:navtitle: Esercitazione Calcoli Percentuali
+:keywords: verifica, calcoli percentuali, economia aziendale, classe prima
+:page-role: verifica
+:pdf-theme: itet-verifica
+:doc-type: verifica
+
+[.punteggio]
+====
+Punteggio totale: ________ / 100 | Voto finale: ________
+====
+
+Svolgi i seguenti esercizi sul foglio di protocollo fornito. Mostra tutti i passaggi matematici eseguiti.
+
+== Esercizio 1: Calcolo Percentuale Semplice (30 punti)
+Un commerciante acquista merci per un valore complessivo di € 4.500,00 e ottiene uno sconto commerciale del 15% per pagamento immediato.
+
+1. Calcola l'importo dello sconto ottenuto in euro.
+2. Determina l'importo netto pagato al fornitore.
+
+== Esercizio 2: Calcolo Sopracento (35 punti)
+Un'azienda commerciale vende merci ed emette una fattura con importo totale pari a € 7.320,00, comprensivo di IVA ad aliquota ordinaria del 22%.
+
+1. Determina il prezzo imponibile delle merci (senza IVA).
+2. Determina l'importo dell'IVA addebitata in fattura.
+
+== Esercizio 3: Calcolo Sottocento (35 punti)
+In seguito ad una riduzione di prezzo straordinaria del 12%, un acquirente paga per l'acquisto di materie prime la somma netta di € 2.640,00.
+
+1. Calcola il prezzo originale delle merci prima dell'applicazione dello sconto.
+2. Calcola l'ammontare in euro dello sconto concesso.
+
+[TIP]
+====
+**Risposte per il controllo (nascondere in fase di stampa):**
+
+* *Esercizio 1:* Sconto = € 675,00; Prezzo Netto = € 3.825,00.
+* *Esercizio 2:* Imponibile = € 6.000,00; IVA = € 1.320,00.
+* *Esercizio 3:* Prezzo Originale = € 3.000,00; Sconto = € 360,00.
+====

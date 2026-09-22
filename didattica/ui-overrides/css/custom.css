@@ -1,0 +1,220 @@
+/* Stylesheet personalizzato per la Didattica di Economia Aziendale */
+
+/* --------------------------------------------------------------------------
+   STILI COMUNI / GLOBALI
+   -------------------------------------------------------------------------- */
+:root {
+  --color-itet-teal: #007A77;
+  --color-itet-teal-light: #f4faf9;
+  --color-itet-accent: #00A3A1;
+  --color-verifica-dark: #333333;
+  --color-verifica-bg: #fafafa;
+  --color-ripasso-blue: #1b365d;
+  --color-ripasso-amber: #d97706;
+  --color-ripasso-bg: #fffbeb;
+}
+
+/* Badge del tipo di documento in cima alla pagina */
+.doc::before {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* --------------------------------------------------------------------------
+   DOCUMENTI TIPO: VERIFICHE (body.verifica)
+   -------------------------------------------------------------------------- */
+body.verifica {
+  border-top: 5px solid var(--color-verifica-dark);
+}
+
+body.verifica .doc::before {
+  content: "📝 Verifica / Esercitazione Autogestita";
+  background-color: #eaeaea;
+  color: var(--color-verifica-dark);
+  border: 1px solid #cccccc;
+}
+
+/* Titolo pulito */
+body.verifica h1.page {
+  font-size: 2.2rem;
+  color: #111111;
+  font-weight: 800;
+  border-bottom: 2px solid #333333;
+  padding-bottom: 0.5rem;
+}
+
+/* Esercizi o domande messi in evidenza */
+body.verifica .olist > ol > li, 
+body.verifica .ulist > ul > li {
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+}
+
+/* Scatola per il punteggio */
+body.verifica .punteggio {
+  background-color: var(--color-verifica-bg);
+  border: 2px dashed #999999;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+/* Ottimizzazione Stampa per Verifiche (Inestimabile per stampare direttamente da browser) */
+@media print {
+  /* Nascondi navigazione, toolbar, barra di ricerca, footer di Antora */
+  .nav-container, .toolbar, .footer, .nav-toggle, .search {
+    display: none !important;
+  }
+  body, .main, .article, .doc {
+    background: white !important;
+    color: black !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+  .doc {
+    max-width: 100% !important;
+  }
+  /* Mostra risposte / soluzioni in bianco per consentire la compilazione cartacea */
+  body.verifica .admonitionblock.tip {
+    background-color: white !important;
+    border: 1px dashed #999999 !important;
+    color: transparent !important; /* Nasconde le risposte nel TIP se stampato */
+  }
+  body.verifica .admonitionblock.tip .content {
+    color: transparent !important;
+  }
+  body.verifica .admonitionblock.tip::before {
+    content: "Spazio per appunti / risposte:";
+    display: block;
+    color: #555555 !important;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 5rem; /* Lascia spazio vuoto per scrivere a penna */
+  }
+}
+
+/* --------------------------------------------------------------------------
+   DOCUMENTI TIPO: LEZIONI (body.lezione)
+   -------------------------------------------------------------------------- */
+body.lezione {
+  border-top: 5px solid var(--color-itet-teal);
+}
+
+body.lezione .doc::before {
+  content: "📖 Lezione / Pillola Didattica";
+  background-color: var(--color-itet-teal-light);
+  color: var(--color-itet-teal);
+  border: 1px solid #b5d6d4;
+}
+
+body.lezione h1.page, 
+body.lezione h2 {
+  color: var(--color-itet-teal);
+}
+
+body.lezione h2 {
+  border-bottom: 2px solid var(--color-itet-accent);
+  padding-bottom: 0.3rem;
+}
+
+/* Admonitions modernizzate */
+body.lezione .admonitionblock.note {
+  background-color: var(--color-itet-teal-light);
+  border-left: 4px solid var(--color-itet-teal);
+  border-radius: 0 6px 6px 0;
+}
+body.lezione .admonitionblock.tip {
+  background-color: #f1fcf8;
+  border-left: 4px solid var(--color-itet-accent);
+  border-radius: 0 6px 6px 0;
+}
+body.lezione .admonitionblock.warning {
+  background-color: #fffaf5;
+  border-left: 4px solid #c75a00;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Scatola di Teoria/Definizioni */
+body.lezione .scatola-teoria {
+  background-color: #f6fbfc;
+  border: 1px solid #d0ebec;
+  border-left: 5px solid var(--color-itet-teal);
+  padding: 1.25rem;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+}
+
+body.lezione .parola-chiave {
+  color: var(--color-itet-teal);
+  font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------
+   DOCUMENTI TIPO: SCHEMI DI RIPASSO (body.ripasso)
+   -------------------------------------------------------------------------- */
+body.ripasso {
+  border-top: 5px solid var(--color-ripasso-blue);
+  background-color: #fbfcfd;
+}
+
+body.ripasso .doc::before {
+  content: "⚡ Schema di Ripasso e Sintesi Rapida";
+  background-color: #edf3fa;
+  color: var(--color-ripasso-blue);
+  border: 1px solid #ccdcee;
+}
+
+body.ripasso h1.page,
+body.ripasso h2 {
+  color: var(--color-ripasso-blue);
+}
+
+body.ripasso h2 {
+  border-bottom: 2px solid var(--color-ripasso-amber);
+}
+
+/* Formula Box: per mettere in evidenza formule matematiche di economia aziendale */
+body.ripasso .formula-box, 
+body.ripasso .paragraph.formula-box {
+  background-color: var(--color-ripasso-bg);
+  border: 2px solid var(--color-ripasso-amber);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1.2rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: var(--color-ripasso-blue);
+  box-shadow: 0 2px 4px rgba(217, 119, 6, 0.1);
+}
+
+body.ripasso .schema-punto {
+  color: var(--color-ripasso-blue);
+  font-weight: bold;
+}
+
+body.ripasso .pillola-sintesi {
+  background-color: #fafbfc;
+  border-left: 4px solid var(--color-ripasso-amber);
+  padding: 0.75rem 1rem;
+  border-radius: 0 4px 4px 0;
+  margin-bottom: 1rem;
+}
+
+/* Tabelle ad alta densità per schemi */
+body.ripasso table.tableblock {
+  font-size: 0.95rem;
+}
+body.ripasso table.tableblock th {
+  background-color: var(--color-ripasso-blue) !important;
+  color: white !important;
+}

@@ -1,0 +1,30 @@
+= Costituzione delle Società di Capitali
+:navtitle: Costituzione Società
+:keywords: costituzione, societa di capitali, partita doppia, classe quarta
+:page-role: lezione
+:pdf-theme: itet-lezione
+
+La nascita di una S.p.A. o di una S.r.l. comporta una serie di adempimenti giuridici ed amministrativi che trovano riscontro nella contabilità in partita doppia.
+
+== 1. Sottoscrizione del Capitale Sociale
+All'atto della costituzione, i soci si impegnano a conferire i capitali necessari per lo svolgimento dell'attività.
+
+[cols="3,1,1", options="header"]
+|===
+| Descrizione Conto | Dare | Avere
+| Azionisti c/sottoscrizione | Valore Sottoscritto | 
+| Capitale Sociale | | Valore Sottoscritto
+|===
+
+== 2. Versamento del 25% in Banca
+La legge impone il versamento di almeno il 25% dei conferimenti in denaro presso un conto corrente vincolato.
+
+[cols="3,1,1", options="header"]
+|===
+| Descrizione Conto | Dare | Avere
+| Banca c/vincolato | 25% in contanti | 
+| Azionisti c/sottoscrizione | | 25% in contanti
+|===
+
+---
+_Nota: Questa pagina è in fase di completamento con il dettaglio dei conferimenti in natura e le spese di costituzione._
