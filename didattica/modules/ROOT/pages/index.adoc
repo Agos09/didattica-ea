@@ -7,7 +7,7 @@ Benvenuti nel sito degli appunti di Economia Aziendale. Qui troverete le sintesi
 
 Seleziona la tua classe per accedere alle sintesi e alle esercitazioni:
 
-* **xref:classe1/calcoli-percentuali.adoc[Classe 1a]**: Calcoli percentuali, riparti, fatturazione.
-* **xref:classe2/interesse-sconto.adoc[Classe 2a]**: Calcolo dell'interesse, dello sconto, cambiali e assegni.
-* **xref:classe4/costituzione-societa.adoc[Classe 4a]**: Costituzione di società, partita doppia avanzata, bilancio d'esercizio.
+* **xref:classe1/calcoli-percentuali.adoc[Classe 1]**: Calcoli percentuali, riparti, fatturazione.
+* **xref:classe2/interesse-sconto.adoc[Classe 2]**: Calcolo dell'interesse, dello sconto, cambiali e assegni.
+* **xref:classe4/costituzione-societa.adoc[Classe 4]**: Costituzione di società, partita doppia avanzata, bilancio d'esercizio.
 
