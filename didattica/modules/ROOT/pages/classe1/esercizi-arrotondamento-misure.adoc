@@ -1,0 +1,250 @@
+= Notazione Posizionale, Arrotondamento e Equivalenze: Esercizi
+:navtitle: Esercizi Matematica di Base
+:keywords: arrotondamento, equivalenze, notazione posizionale, esercizi, classe prima
+:page-role: lezione
+
+In questa sezione viene proposta una raccolta di esercizi pratici per consolidare la notazione posizionale, l'arrotondamento commerciale dei decimali e le equivalenze dei sistemi di misura. Questi argomenti rappresentano le fondamenta matematiche per i calcoli aziendali (fatturazione, logistica, riparti, IVA).
+
+[TIP]
+====
+**Versione Stampabile in PDF:**
+Puoi scaricare la scheda di lavoro in formato PDF professionale con l'intestazione ufficiale dell'istituto, pronta da stampare o compilare:
+* link:{attachmentsdir}/esercizi_1afm_arrotondamento_misure.pdf[📄 Scarica la scheda esercizi in PDF]
+====
+
+---
+
+== Introduzione Teorico-Pratica
+Nello studio dell'**Economia Aziendale**, la precisione matematica e la padronanza delle grandezze fisiche e monetarie sono pilastri indispensabili:
+* La **notazione posizionale** ci permette di comprendere il valore esatto di ogni cifra all'interno dei documenti finanziari.
+* L'**arrotondamento decimale** è regolato da norme civilistiche e commerciali; nei calcoli monetari in Euro, ad esempio, è obbligatorio esprimere i valori finali con due cifre decimali (centesimi), applicando l'arrotondamento commerciale.
+* Le **equivalenze** sono necessarie per gestire l'inventario delle merci, calcolare i costi di trasporto (spesso tarati su pesi in quintali o tonnellate), e compilare correttamente le fatture e i documenti di trasporto (DDT).
+
+---
+
+== SEZIONE 1: Notazione Posizionale e Potenze di 10
+
+[NOTE]
+====
+Nel nostro sistema numerico decimale-posizionale, il valore di una cifra cambia a seconda della sua posizione. Ogni posizione corrisponde a una potenza di 10:
+* **uk** (unità di migliaia) = 10^3^ = 1.000
+* **h** (centinaia) = 10^2^ = 100
+* **da** (decine) = 10^1^ = 10
+* **u** (unità) = 10^0^ = 1
+* **d** (decimi) = 10^-1^ = 0,1
+* **c** (centesimi) = 10^-2^ = 0,01
+* **m** (millesimi) = 10^-3^ = 0,001
+====
+
+=== Esercizio 1: Scomposizione Posizionale
+Scomponi i seguenti numeri decimali, indicando il valore posizionale di ciascuna cifra (come nell'esempio).
+
+*Esempio:* 4.312,85 = 4 uk, 3 h, 1 da, 2 u, 8 d, 5 c
+
+[loweralpha]
+. 542,8
+. 1.083,45
+. 12,904
+. 7.300,02
+. 0,056
+
+=== Esercizio 2: Ricostruzione del Numero
+Trova il numero decimale corrispondente alle seguenti scomposizioni posizionali.
+
+[loweralpha]
+. 3 h, 5 da, 2 u, 4 d, 7 c
+. 1 uk, 4 h, 0 da, 8 u, 3 d, 9 m
+. 5 da, 6 u, 0 d, 2 c
+. 8 uk, 7 u, 5 c, 1 m
+. 9 d, 4 m
+
+=== Esercizio 3: Spostamento della Virgola (Moltiplicazione e Divisione per 10, 100, 1000)
+Esegui rapidamente le seguenti operazioni spostando la virgola verso destra (moltiplicazione) o verso sinistra (divisione).
+
+[cols="1,1", frame="none", grid="none"]
+|===
+| a) 45,82 x 10 = ... | d) 723,5 : 10 = ...
+| b) 3,14 x 100 = ... | e) 45,8 : 100 = ...
+| c) 0,045 x 1.000 = ... | f) 1.250 : 1.000 = ...
+|===
+
+---
+
+== SEZIONE 2: Tecniche di Arrotondamento Decimale
+
+[IMPORTANT]
+====
+**Regola dell'Arrotondamento Commerciale (Matematico):**
+Si osserva la prima cifra che deve essere eliminata (quella immediatamente a destra di quella a cui si vuole approssimare):
+1. **Per Difetto:** se la cifra da eliminare è minore di 5 (0, 1, 2, 3, 4), l'ultima cifra conservata resta invariata.
+2. **Per Eccesso:** se la cifra da eliminare è uguale o maggiore di 5 (5, 6, 7, 8, 9), l'ultima cifra conservata viene aumentata di 1 unità.
+====
+
+=== Esercizio 4: Arrotondamento Commerciale ai Centesimi (Valuta Euro)
+Nelle transazioni commerciali l'Euro viene espresso con due cifre decimali. Arrotonda commercialmente i seguenti importi monetari ai centesimi (2 decimali):
+
+[loweralpha]
+. € 14,562 -> € ...
+. € 89,347 -> € ...
+. € 120,405 -> € ...
+. € 0,184 -> € ...
+. € 1.245,996 -> € ...
+. € 5,003 -> € ...
+
+=== Esercizio 5: Gradi di Approssimazione di un Numero
+Completa la seguente tabella arrotondando i numeri dati secondo i diversi livelli di approssimazione richiesti.
+
+[cols="4,3,3,3,3", options="header"]
+|===
+| Numero di Partenza | All'intero più vicino | Ai decimi (1 cifra dec.) | Ai centesimi (2 cifre dec.) | Ai millesimi (3 cifre dec.)
+| **157,4836** | | | |
+| **34,9275** | | | |
+| **0,8153** | | | |
+|===
+
+=== Esercizio 6: Problema Applicato (Calcolo dello Sconto)
+Un commerciante applica uno sconto del 15% su una giacca che costa € 79,90.
+Il calcolo matematico dello sconto fornisce come risultato € 11,985.
+
+1. Arrotonda l'importo dello sconto ai centesimi di Euro utilizzando l'arrotondamento commerciale.
+2. Calcola il prezzo finale scontato che il cliente dovrà effettivamente pagare (Prezzo finale = Prezzo di listino - Sconto arrotondato).
+
+---
+
+== SEZIONE 3: Equivalenze e Sistemi di Misura
+
+[NOTE]
+====
+Nell'attività commerciale e di logistica si utilizzano diverse unità di misura:
+* **Lunghezza:** Metro (**m**) e sottomultipli/multipli.
+* **Capacità:** Litro (**l**), ettolitro (**hl** = 100 l).
+* **Massa (Peso):** Chilogrammo (**kg**), grammo (**g**).
+* **Misure commerciali di peso:**
+** **Quintale (q)** = 100 kg
+** **Tonnellata (t)** = 1.000 kg
+====
+
+=== Esercizio 7: Equivalenze di Lunghezza
+Esegui le seguenti conversioni tra unità di misura della lunghezza:
+
+[loweralpha]
+. 1.500 m = ... km
+. 3,4 km = ... m
+. 450 cm = ... m
+. 0,75 m = ... mm
+. 12,5 dam = ... m
+
+=== Esercizio 8: Equivalenze di Capacità
+Esegui le seguenti conversioni tra unità di misura della capacità dei liquidi:
+
+[loweralpha]
+. 1,5 hl = ... l
+. 250 ml = ... l
+. 12 l = ... dl
+. 0,5 hl = ... dal
+. 75 cl = ... l
+
+=== Esercizio 9: Equivalenze di Massa (Peso) con Grandezze Commerciali
+Esegui le seguenti conversioni, prestando attenzione alle unità commerciali di quintali (**q**) e tonnellate (**t**):
+
+[loweralpha]
+. 4.500 kg = ... t
+. 12 q = ... kg
+. 0,8 t = ... kg
+. 350 g = ... kg
+. 4,2 kg = ... hg
+. 2,5 t = ... q
+
+=== Esercizio 10: Problema Applicato di Magazzino (Liquidi)
+Un oleificio deve imbottigliare un lotto di 1,2 hl (ettolitri) di olio extravergine d'oliva in bottiglie di vetro della capacità di 750 ml ciascuna.
+
+1. Calcola la quantità totale di olio espressa in litri.
+2. Determina la capacità di ciascuna bottiglia espressa in litri.
+3. Calcola il numero totale di bottiglie necessarie per confezionare l'intero lotto di olio.
+
+=== Esercizio 11: Problema Applicato di Logistica (Tara, Lordo e Netto)
+Un autocarro a pieno carico trasporta cassette di pomodori. I dati della spedizione indicano:
+* **Peso Lordo** (autocarro + merce): 4,5 t
+* **Tara** (peso dell'autocarro vuoto): 2.800 kg
+
+1. Calcola il **Peso Netto** della merce complessiva espresso in chilogrammi (**kg**).
+2. Esprimi lo stesso Peso Netto in quintali (**q**) e in tonnellate (**t**).
+3. Se la merce è ripartita in cassette che contengono ciascuna un peso netto di 20 kg di pomodori, quante cassette sono caricate sull'autocarro?
+
+---
+
+== SCHEDA SOLUZIONI (Per Autoverifica)
+
+=== Soluzioni Sezione 1
+* **Esercizio 1:**
+  ** a) 542,8 = 5 h, 4 da, 2 u, 8 d
+  ** b) 1.083,45 = 1 uk, 0 h, 8 da, 3 u, 4 d, 5 c
+  ** c) 12,904 = 1 da, 2 u, 9 d, 0 c, 4 m
+  ** d) 7.300,02 = 7 uk, 3 h, 0 da, 0 u, 0 d, 2 c
+  ** e) 0,056 = 0 u, 0 d, 5 c, 6 m
+* **Esercizio 2:**
+  ** a) 352,47
+  ** b) 1.408,309
+  ** c) 56,02
+  ** d) 8.007,051
+  ** e) 0,904
+* **Esercizio 3:**
+  ** a) 458,2
+  ** b) 314
+  ** c) 45
+  ** d) 72,35
+  ** e) 0,458
+  ** f) 1,25
+
+=== Soluzioni Sezione 2
+* **Esercizio 4:**
+  ** a) € 14,56 (la terza cifra decimale è 2 < 5)
+  ** b) € 89,35 (la terza cifra decimale è 7 >= 5)
+  ** c) € 120,41 (la terza cifra decimale è 5 >= 5)
+  ** d) € 0,18 (la terza cifra decimale è 4 < 5)
+  ** e) € 1.246,00 (la terza cifra decimale è 6 >= 5, si somma 1 che porta 0,99 a 1,00)
+  ** f) € 5,00 (la terza cifra decimale è 3 < 5)
+* **Esercizio 5:**
++
+[cols="4,3,3,3,3", options="header"]
+|===
+| Numero di Partenza | All'intero più vicino | Ai decimi (1 cifra dec.) | Ai centesimi (2 cifre dec.) | Ai millesimi (3 cifre dec.)
+| **157,4836** | 157 | 157,5 | 157,48 | 157,484
+| **34,9275** | 35 | 34,9 | 34,93 | 34,928
+| **0,8153** | 1 | 0,8 | 0,82 | 0,815
+|===
+* **Esercizio 6:**
+  1. Importo dello sconto: la terza cifra decimale di 11,985 è 5 >= 5, quindi si arrotonda per eccesso ai centesimi: **€ 11,99**.
+  2. Prezzo scontato finale: € 79,90 - 11,99 = **€ 67,91**.
+
+=== Soluzioni Sezione 3
+* **Esercizio 7:**
+  ** a) 1,5 km (divisione per 1.000)
+  ** b) 3.400 m (moltiplicazione per 1.000)
+  ** c) 4,5 m (divisione per 100)
+  ** d) 750 mm (moltiplicazione per 1.000)
+  ** e) 125 m (moltiplicazione per 10)
+* **Esercizio 8:**
+  ** a) 150 l (moltiplicazione per 100)
+  ** b) 0,25 l (divisione per 1.000)
+  ** c) 120 dl (moltiplicazione per 10)
+  ** d) 5 dal (moltiplicazione per 10)
+  ** e) 0,75 l (divisione per 100)
+* **Esercizio 9:**
+  ** a) 4,5 t (divisione per 1.000)
+  ** b) 1.200 kg (moltiplicazione per 100)
+  ** c) 800 kg (moltiplicazione per 1.000)
+  ** d) 0,35 kg (divisione per 1.000)
+  ** e) 42 hg (moltiplicazione per 10)
+  ** f) 25 q (1 t = 10 q, quindi si moltiplica per 10)
+* **Esercizio 10:**
+  1. Quantità totale in litri: 1,2 hl x 100 = **120 l**.
+  2. Capacità bottiglia in litri: 750 ml : 1.000 = **0,75 l**.
+  3. Numero bottiglie: 120 l : 0,75 l = **160 bottiglie**.
+* **Esercizio 11:**
+  1. Peso lordo in kg: 4,5 t x 1.000 = 4.500 kg. +
+     Peso Netto = Peso Lordo - Tara = 4.500 kg - 2.800 kg = **1.700 kg**.
+  2. Espressione del Peso Netto:
+     - In quintali: 1.700 kg : 100 = **17 q**.
+     - In tonnellate: 1.700 kg : 1.000 = **1,7 t**.
+  3. Numero cassette caricate: 1.700 kg : 20 kg/cassetta = **85 cassette**.

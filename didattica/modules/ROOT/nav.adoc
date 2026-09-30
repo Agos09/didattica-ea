@@ -5,6 +5,7 @@
 ** xref:classe1/rapporti-proporzioni.adoc[Rapporti e Proporzioni]
 ** xref:classe1/calcoli-percentuali.adoc[Calcoli Percentuali]
 ** xref:classe1/verifica-calcoli-percentuali.adoc[Esercitazione Calcoli Percentuali]
+** xref:classe1/esercizi-arrotondamento-misure.adoc[Esercizi di Arrotondamento e Equivalenze]
 
 * Classe 2a
 ** xref:classe2/tempo-interesse-semplice.adoc[Tempo e Interesse Semplice]
