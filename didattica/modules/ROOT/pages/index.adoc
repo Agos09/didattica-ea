@@ -11,8 +11,3 @@ Seleziona la tua classe per accedere alle sintesi e alle esercitazioni:
 * **xref:classe2/interesse-sconto.adoc[Classe 2a]**: Calcolo dell'interesse, dello sconto, cambiali e assegni.
 * **xref:classe4/costituzione-societa.adoc[Classe 4a]**: Costituzione di società, partita doppia avanzata, bilancio d'esercizio.
 
-== Perché questo formato?
-Questo sito è scritto interamente in **AsciiDoc**, un formato che permette di:
-- Avere slide, dispense e PDF sincronizzati senza duplicazioni di contenuto.
-- Studiare in modo interattivo con link diretti tra concetti correlati.
-- Visualizzare le note sia su computer che su smartphone grazie al design responsive.

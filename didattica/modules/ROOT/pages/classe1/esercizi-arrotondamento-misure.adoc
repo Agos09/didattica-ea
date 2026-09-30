@@ -27,19 +27,26 @@ Nello studio dell'**Economia Aziendale**, la precisione matematica e la padronan
 [NOTE]
 ====
 Nel nostro sistema numerico decimale-posizionale, il valore di una cifra cambia a seconda della sua posizione. Ogni posizione corrisponde a una potenza di 10:
-* **uk** (unità di migliaia) = 10^3^ = 1.000
+
+* **k** (unità di migliaia) = 10^3^ = 1.000
+
 * **h** (centinaia) = 10^2^ = 100
+
 * **da** (decine) = 10^1^ = 10
+
 * **u** (unità) = 10^0^ = 1
+
 * **d** (decimi) = 10^-1^ = 0,1
+
 * **c** (centesimi) = 10^-2^ = 0,01
+
 * **m** (millesimi) = 10^-3^ = 0,001
 ====
 
 === Esercizio 1: Scomposizione Posizionale
 Scomponi i seguenti numeri decimali, indicando il valore posizionale di ciascuna cifra (come nell'esempio).
 
-*Esempio:* 4.312,85 = 4 uk, 3 h, 1 da, 2 u, 8 d, 5 c
+*Esempio:* 4.312,85 = 4 k, 3 h, 1 da, 2 u, 8 d, 5 c
 
 [loweralpha]
 . 542,8
@@ -53,9 +60,9 @@ Trova il numero decimale corrispondente alle seguenti scomposizioni posizionali.
 
 [loweralpha]
 . 3 h, 5 da, 2 u, 4 d, 7 c
-. 1 uk, 4 h, 0 da, 8 u, 3 d, 9 m
+. 1 k, 4 h, 0 da, 8 u, 3 d, 9 m
 . 5 da, 6 u, 0 d, 2 c
-. 8 uk, 7 u, 5 c, 1 m
+. 8 k, 7 u, 5 c, 1 m
 . 9 d, 4 m
 
 === Esercizio 3: Spostamento della Virgola (Moltiplicazione e Divisione per 10, 100, 1000)
@@ -178,9 +185,9 @@ Un autocarro a pieno carico trasporta cassette di pomodori. I dati della spedizi
 === Soluzioni Sezione 1
 * **Esercizio 1:**
   ** a) 542,8 = 5 h, 4 da, 2 u, 8 d
-  ** b) 1.083,45 = 1 uk, 0 h, 8 da, 3 u, 4 d, 5 c
+  ** b) 1.083,45 = 1 k, 0 h, 8 da, 3 u, 4 d, 5 c
   ** c) 12,904 = 1 da, 2 u, 9 d, 0 c, 4 m
-  ** d) 7.300,02 = 7 uk, 3 h, 0 da, 0 u, 0 d, 2 c
+  ** d) 7.300,02 = 7 k, 3 h, 0 da, 0 u, 0 d, 2 c
   ** e) 0,056 = 0 u, 0 d, 5 c, 6 m
 * **Esercizio 2:**
   ** a) 352,47
