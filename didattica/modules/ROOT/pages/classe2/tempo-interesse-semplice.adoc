@@ -3,6 +3,7 @@
 :keywords: tempo, interesse semplice, divisore fisso, calcoli finanziari, economia aziendale, classe seconda
 :page-role: lezione
 :pdf-theme: itet-lezione
+:stem: latexmath
 
 In questa sezione analizzeremo i **calcoli finanziari**, partendo dalla misurazione del tempo fino ad arrivare alla formula dell'**interesse semplice** e al metodo pratico del **divisore fisso**.
 
@@ -18,56 +19,88 @@ Nelle operazioni finanziarie, il tempo rappresenta una variabile cruciale. Per c
 Nel conteggio dei giorni si esclude il giorno di partenza e si include quello di scadenza.
 
 *Esempio:* Calcoliamo i giorni intercorrenti tra il **12 Maggio** e il **18 Settembre**:
-* Maggio: $31 - 12 = 19$ giorni residui
+* Maggio: latexmath:[31 - 12 = 19] giorni residui
 * Giugno: 30 giorni
 * Luglio: 31 giorni
 * Agosto: 31 giorni
 * Settembre: 18 giorni (giorno finale incluso)
-* **Totale giorni:** $19 + 30 + 31 + 31 + 18 = 129$ giorni.
+* **Totale giorni:** latexmath:[19 + 30 + 31 + 31 + 18 = 129] giorni.
 
 ---
 
 == 2. L'Interesse Semplice
-L'**interesse** ($I$) è il compenso economico che spetta a chi concede in prestito un determinato capitale ($C$) ad un altro soggetto per un certo periodo di tempo ($t$), ad un prestabilito tasso percentuale annuo ($r$).
+L'**interesse** (latexmath:[I]) è il compenso economico che spetta a chi concede in prestito un determinato capitale (latexmath:[C]) ad un altro soggetto per un certo periodo di tempo (latexmath:[t]), ad un prestabilito tasso percentuale annuo (latexmath:[r]).
 
 Si parla di **interesse semplice** quando l'interesse maturato non si aggiunge al capitale iniziale per produrre nuovi interessi nei periodi successivi (mancanza di capitalizzazione).
 
 === Le Formule Fondamentali dell'Interesse Semplice
-A seconda di come viene espresso il tempo ($t$), la formula dell'interesse assume tre varianti matematiche:
+A seconda di come viene espresso il tempo (latexmath:[t]), la formula dell'interesse assume tre varianti matematiche:
 
-1. **Tempo espresso in anni ($t$):**
-   [NOTE]
-   ====
-   $$I = \frac\{C \cdot r \cdot t\}\{100\}$$
-   ====
+1. **Tempo espresso in anni (latexmath:[t]):**
++
+[NOTE]
+====
+[latexmath]
+++++
+I = \frac{C \cdot r \cdot t}{100}
+++++
+====
 
-2. **Tempo espresso in mesi ($m$):**
-   [NOTE]
-   ====
-   $$I = \frac\{C \cdot r \cdot m\}\{1.200\}$$ (poiché 1 anno = 12 mesi, si moltiplica il denominatore per 12)
-   ====
+2. **Tempo espresso in mesi (latexmath:[m]):**
++
+[NOTE]
+====
+[latexmath]
+++++
+I = \frac{C \cdot r \cdot m}{1200}
+++++
+(poiché 1 anno = 12 mesi, si moltiplica il denominatore per 12)
+====
 
-3. **Tempo espresso in giorni ($g$):**
+3. **Tempo espresso in giorni (latexmath:[g]):**
    * *Anno Civile (365 giorni):*
-     [NOTE]
-     ====
-     $$I = \frac\{C \cdot r \cdot g\}\{36.500\}$$
-     ====
++
+[NOTE]
+====
+[latexmath]
+++++
+I = \frac{C \cdot r \cdot g}{36500}
+++++
+====
    * *Anno Commerciale (360 giorni):*
-     [NOTE]
-     ====
-     $$I = \frac\{C \cdot r \cdot g\}\{36.000\}$$
-     ====
++
+[NOTE]
+====
+[latexmath]
+++++
+I = \frac{C \cdot r \cdot g}{36000}
+++++
+====
 
 ---
 
 == 3. Il Metodo del Divisore Fisso (per il tempo in giorni)
-Per rendere più rapidi i calcoli ripetitivi dell'interesse espresso in giorni, soprattutto in presenza di più capitali, si introduce il concetto di **Divisore Fisso** ($D$) e **Numero Finanziario** ($N$):
+Per rendere più rapidi i calcoli ripetitivi dell'interesse espresso in giorni, soprattutto in presenza di più capitali, si introduce il concetto di **Divisore Fisso** (latexmath:[D]) e **Numero Finanziario** (latexmath:[N]):
 
-* **Numero Finanziario ($N$):** è il prodotto tra il capitale e il tempo in giorni:
-  $$N = C \cdot g$$
-* **Divisore Fisso ($D$):** è il rapporto costante tra il denominatore fisso e il tasso di interesse ($r$):
-  $$D = \frac\{36.500\}\{r\}$$ (per l'anno civile) oppure $$D = \frac\{36.000\}\{r\}$$ (per l'anno commerciale)
+* **Numero Finanziario (latexmath:[N]):** è il prodotto tra il capitale e il tempo in giorni:
++
+[latexmath]
+++++
+N = C \cdot g
+++++
+* **Divisore Fisso (latexmath:[D]):** è il rapporto costante tra il denominatore fisso e il tasso di interesse (latexmath:[r]):
++
+[latexmath]
+++++
+D = \frac{36500}{r}
+++++
+(per l'anno civile) oppure
++
+[latexmath]
+++++
+D = \frac{36000}{r}
+++++
+(per l'anno commerciale)
 
 === La Formula con il Divisore Fisso
 [.formula-box]
@@ -89,13 +122,34 @@ Risolvi i seguenti esercizi applicativi sul tuo quaderno:
 ====
 **Soluzioni per il controllo autonomo:**
 
-1. **Calcolo giorni:** Febbraio ($28-15=13$) + Marzo ($31$) + Aprile ($30$) + Maggio ($31$) + Giugno ($22$) = **127 giorni**.
+1. **Calcolo giorni:** Febbraio (latexmath:[28 - 15 = 13]) + Marzo (latexmath:[31]) + Aprile (latexmath:[30]) + Maggio (latexmath:[31]) + Giugno (latexmath:[22]) = **127 giorni**.
 2. **Interesse in anni:**
-   $$I = \frac\{15.000 \cdot 4,5 \cdot 3\}\{100\} = \text{€ } 2.025,00$$
++
+[latexmath]
+++++
+I = \frac{15000 \cdot 4{,}5 \cdot 3}{100} = \text{€ 2.025,00}
+++++
 3. **Interesse in giorni (commerciale):**
-   * *Formula standard:* $$I = \frac\{8.400 \cdot 6 \cdot 75\}\{36.000\} = \text{€ } 105,00$$
+   * *Formula standard:*
++
+[latexmath]
+++++
+I = \frac{8400 \cdot 6 \cdot 75}{36000} = \text{€ 105,00}
+++++
    * *Metodo Divisore Fisso:*
-     $$N = 8.400 \cdot 75 = 630.000$$ +
-     $$D = \frac\{36.000\}\{6\} = 6.000$$ +
-     $$I = \frac\{630.000\}\{6.000\} = \text{€ } 105,00$$
++
+[latexmath]
+++++
+N = 8400 \cdot 75 = 630000
+++++
++
+[latexmath]
+++++
+D = \frac{36000}{6} = 6000
+++++
++
+[latexmath]
+++++
+I = \frac{630000}{6000} = \text{€ 105,00}
+++++
 ====
